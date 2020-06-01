@@ -1,0 +1,10 @@
+syntax = 'proto3';
+
+package mycodesmells.celgo.models;
+option go_package = "github.com/slomek/playground/cel/models";
+
+message Person {
+    string name = 1;
+    string country = 2;
+    int32 age = 3;
+}

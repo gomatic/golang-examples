@@ -21,7 +21,7 @@ func NewPhoneNumberValidator(rules []string) (*PhoneNumberValidator, error) {
 				decls.NewInstanceOverload("starts_with",
 					[]*exprpb.Type{decls.String, decls.String},
 					decls.Bool,
-				),
+				), 
 			),
 			decls.NewFunction("has_digits",
 				decls.NewOverload("has_digits",
